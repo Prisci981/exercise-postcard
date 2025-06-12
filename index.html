@@ -4,26 +4,32 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Postcard</title>
-		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="styles.css" />
 	</head>
+
 	<body>
 		<div class="postcard">
 			<div class="postcard-header">
 				<h1>My Postcard</h1>
-				<img src="https://raw.githubusercontent.com/breatheco-de/exercise-postcard/main/assets/postcard.jpg" alt="Postcard Image" />
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_NApT35W-2Ghuoc2INZFCREowZC7b99XBnw&s" alt="Postcard Image" />
 			</div>
 
 			<div class="postcard-body">
-				<div class="body-left">I am the left side</div>
-				<div class="body-right">I am the right side</div>
+				<div class="body-left">
+					<p>Dear friend,</p>
+					<p>Wishing you sunny days and good vibes!</p>
+					<input type="text" placeholder="Write a message..." />
+				</div>
+				<div class="body-right">
+					<p>To:</p>
+					<input type="text" placeholder="Full Name" />
+					<input type="text" placeholder="Address" />
+					<input type="text" placeholder="City, State, ZIP" />
+				</div>
 			</div>
-
 			<div class="postcard-footer">
-				<!-- Footer content -->
+				<button>Send My Postcard</button>
 			</div>
 		</div>
 	</body>
 </html>
-<div class="postcard-footer">
-	<button>Send My Postcard</button>
-</div>
